@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #fbf4e1;
+}
+
+header,
+footer {
+    background: #2b140e;
+    color: #fbf4e1;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +27,7 @@
 }
 
 .box {
+    cursor: pointer;
     min-width: 150px;
     height: 150px;
     border: 3px solid;

@@ -1,5 +1,24 @@
-h1 {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fbf4e1;
+}
+
+header,
+footer {
+    background: #2b140e;
+    color: #fbf4e1;
+    padding: 2rem;
+}
+
+header {
     text-align: center;
+}
+
+.wrapper {
+    padding: 2rem 0;
 }
 
 img {
